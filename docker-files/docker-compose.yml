@@ -4,7 +4,7 @@ services:
     image: "${DOCKER_IMAGE}"
     build: .
     ports:
-      - "8000:4200"
+      - "5000:4200"
     volumes:
       - "/app/node_modules"
       - ".:/app"
